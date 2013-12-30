@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require "mdbpwd"
+    
+    a="a2003.mdb"
+    b="a2007.accdb"
+    puts MDB::getpwd "#{a} password: #{File.dirname(__FILE__)}/#{a}"
+    puts MDB::getpwd "#{b} password: #{File.dirname(__FILE__)}/#{b}"
+
 
 ## Contributing
 

@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Mdbpwd::VERSION
   spec.authors       = ["windwiny"]
   spec.email         = ["windwiny.ubt@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{find access database file password}
+  spec.summary       = %q{find access database file password.}
+  spec.homepage      = "https://github.com/windwiny/mdbpwd.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_dependency "ffi"
 end
